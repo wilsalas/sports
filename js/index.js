@@ -4,34 +4,26 @@ const URLS = {
 }
 
 const channels = [
-    {
-        name: 'Win Sport +',
-        path: 'winmas',
-    },
-    {
-        name: 'Directv Sport',
-        path: 'directvsports',
-    },
-    {
-        name: 'Fox Sport HD',
-        path: 'foxsportshd',
-    },
-    {
-        name: 'Fox Sport 2',
-        path: 'foxsports2',
-    }
+    'winsports',
+    'winmas',
+    'directvsports',
+    'directvsports2',
+    'directvplushd',
+    'foxsportshd',
+    'foxsports2',
+    'foxsportspremium',
 ];
 
 
 funSelectedChannel = channel => {
-   document.getElementById("view-sport").setAttribute('src', `${URLS.SERVER + channel}.php`);
+    document.getElementById("view-sport").setAttribute('src', `${URLS.SERVER + channel}.php`);
 }
 
-channels.forEach(items => {
+channels.forEach(channel => {
     document.getElementById("list-channels").innerHTML += `
-        <div class="col-md-3 mt-2">
-        <button type="button" class="btn btn-outline-dark " onclick="funSelectedChannel('${items.path}')">
-            <img class="view-icons" src="${URLS.ICON}/${items.path}.png">
+        <div class="col-md-2 mt-2 mb-4">
+        <button type="button" class="btn btn-outline-dark " onclick="funSelectedChannel('${channel}')">
+            <img class="view-icons" src="${URLS.ICON}/${channel}.png">
         </button>
         </div>`;
 })
