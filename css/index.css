@@ -1,0 +1,21 @@
+body, .card {
+    background-color: black;
+}
+
+.card{
+    border: 1px solid white;
+}
+
+.content-sports {
+    height: 430px;
+}
+
+.view-icons{
+    width: 90px;
+    height: 70px;
+}
+
+iframe {
+    width: 100%;
+    height: 430px;
+}
