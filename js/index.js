@@ -1,5 +1,6 @@
 const URLS = {
-    SERVER: 'https://soloveo.com/',
+    /* SERVER: 'https://soloveo.com/', */
+    SERVER: 'https://dpelota.com/',
     ICON: './icons/'
 }
 
