@@ -3,7 +3,7 @@ body, .card {
 }
 
 .card{
-    border: 1px solid white;
+    /* border: 1px solid white; */
 }
 
 .content-sports, iframe {
