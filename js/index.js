@@ -26,7 +26,7 @@ funSelectedChannel = channel => {
 
 channels.forEach(channel => {
     document.getElementById("list-channels").innerHTML += `
-        <div class="col-md-2 col-sm-3 col-6  mt-2 mb-4">
+        <div class="col-md-2 col-sm-3 col-6  mt-2">
         <button type="button" class="btn btn-outline-dark " onclick="funSelectedChannel('${channel}')">
             <img class="view-icons" src="${URLS.ICON}/${channel}.png">
         </button>

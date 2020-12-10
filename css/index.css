@@ -2,8 +2,8 @@ body, .card {
     background-color: black;
 }
 
-.card{
-    /* border: 1px solid white; */
+button{
+    width: 100%;
 }
 
 .content-sports, iframe {
