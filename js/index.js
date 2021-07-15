@@ -14,7 +14,7 @@ const channels = [
     'foxsportshd',
     'foxsports2',
     'foxsportspremium',
-    'espnhd',
+    'espn3hd',
     'espn2hd',
     'tntsports',
     'udn'
